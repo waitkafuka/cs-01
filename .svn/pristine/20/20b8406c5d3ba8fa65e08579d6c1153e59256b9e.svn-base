@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>中国移动众包服务平台</title>
+
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../css/main_02.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/projectDetail.css">
+    <link rel="stylesheet" href="../../css/person-info.css">
+
+    <script src="../../bootstrap-3.3.5/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../../bootstrap-3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../js/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="p-header-01">
+    <div class="top-right">
+        <span id="username" class="username-box">
+            <a>
+                <img src="../../img/user_head_sm.png"></a>&nbsp;
+            <a>朵以</a>&nbsp;
+            <img src="../../img/icon_09.png">&nbsp;&nbsp;&nbsp;
+            <!--退出DIV-->
+            <div class="sign-out-box"><a>退出</a></div>
+        </span>
+        <span class="account-box">
+        <img src="../../img/icon_03.png">&nbsp;&nbsp;<a>账户</a></span>
+    </div>
+</div>
+<div class="p-nav">
+    <div id="nav-box">
+        <ul class="fl">
+            <li><a>首页</a></li>
+            <li><a>我的任务</a></li>
+            <li><a>我的钱包</a></li>
+            <li><a>培训考试</a></li>
+        </ul>
+        <div id="search-box">
+            <input type="text" id="search-ipt"/><img src="../../img/bt_bg_02.png">
+        </div>
+    </div>
+</div>
+<div id="main-box" class="main-box">
+    <div class="warn-msg-box">
+        您还没有完成实名认证，这将影响您的签约。快去<a>实名认证</a>吧;您还没有完善个人资料，这将影响您的签约。快去<a>完善个人资料</a>吧
+        <img class="fr cp" id="warn-close" src="../../img/close_bt_01.png" style="width: 38px">
+    </div>
+
+    <div class="l-con fl" id="left-box">
+        <div class="TX-QM">
+            <img src="../../img/img_03.png" style="width: 107px;" alt="这里是头像。" class="fl">
+            <div class="qm fl">
+                <h><span>石头</span> （张**） 男  27岁</h>
+                <p>我就是我，天空下不一样的烟火！</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!----------------------------------这里是头像部分的代码！------------------------------------->
+        <div class="JB-mas">
+            <div class="title">基本信息</div>
+            <div class="mas">
+                <div class="fl">
+                    <p>电子邮箱：&nbsp;&nbsp;&nbsp;&nbsp;2430494106@qq.com</p>
+                    <p>详细地址：&nbsp;&nbsp;&nbsp;&nbsp;河南省郑州市中原区</p>
+                </div>
+                <div class="fl mar">
+                    <p>手机号码：&nbsp;&nbsp;&nbsp;&nbsp;18238825355</p>
+                    <p>目前情况：&nbsp;&nbsp;&nbsp;&nbsp;离职</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!----------------------------------这里是基本信息部分的代码！------------------------------------->
+        <div class="JB-mas" style="margin-top: 0;">
+            <div class="title">身份信息</div>
+            <table class="mas" style="margin-top:19px;margin-left: 21px;">
+                <tbody>
+                <tr>
+                    <td style="width: 90px;">
+                        <p>身份证号：</p>
+                    </td>
+                    <td>
+                        411024198823254417
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle;padding-top:10px">
+                        <span>身份证资料：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td style="padding-top:10px">
+                        <img src="../../img/no_img_01.png" width="107" height="107" alt="  ">
+                    </td>
+
+                    <!-- <div class="clearfix"></div>-->
+                </tr>
+                </tbody>
+            </table>
+            <!--old
+            <div class="mas">
+                <div>
+                    <p>身份证号：&nbsp;&nbsp;&nbsp;&nbsp;411024198823254417</p>
+                </div>
+                <div>
+                    <span>身份证资料：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="images/img_03.png" width="107" height="107" alt="  ">
+
+                </div>
+               <!-- <div class="clearfix"></div>
+            </div>
+          -->
+        </div>
+        <!----------------------------------这里是身份信息部分的代码！------------------------------------->
+        <div class="JB-mas">
+            <div class="title">教育经历</div>
+            <table class="mas" style="margin-top:19px;margin-left: 21px;">
+                <tbody>
+                <tr>
+                    <td style="width: 51px;">
+                        <p>时间：</p>
+                    </td>
+                    <td style="width: 223px;;">
+                        2015年07月20号 - 至今
+                    </td>
+                    <td style="width: 71px;">
+                        <p>毕业院校：</p>
+                    </td>
+                    <td>
+                        洛阳师范学院
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle;">
+                        <span>专业：</span>
+                    </td>
+                    <td>
+                        电子商务
+                    </td>
+                    <td style="vertical-align: middle;">
+                        <span>学历：</span>
+                    </td>
+                    <td>
+                        本科
+                    </td>
+                </tr>
+                <tr><td>学位：</td><td>学士</td></tr>
+                </tbody>
+            </table>
+            <div class="mas">
+                <div class="clearfix" style="border-bottom:1px #e6e6e6 dashed;padding:10px;"></div>
+                <div style="margin-top:20px;">
+                    <!--<div class="fl">
+                        <span>身份证资料：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/img_03.png" width="107" height="107" alt="  ">
+
+                    </div>
+                    <div class="fl" style="margin-left:80px;">
+                        <span>身份证资料：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/img_03.png" width="107" height="107" alt="  ">
+
+                    </div>
+                    <div class="clearfix"></div>-->
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td style="vertical-align: middle;">
+                                <span>学历证明：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            <td>
+                                <img src="../../img/no_img_01.png" width="107" height="107" alt="  ">
+                            </td>
+                            <td style="vertical-align: middle; padding-left:80px;">
+                                <span>学位证明：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            <td>
+                                <img src="../../img/no_img_01.png" width="107" height="107" alt="  ">
+                            </td>
+
+                            <!-- <div class="clearfix"></div>-->
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------这里是教育经历部分的代码！------------------------------------->
+    </div>
+    <div class="r-con fr" id="right-box">
+        <div class="btn" style="padding:0">
+            <span class="bj fl">编辑个人资料</span>
+            <span class="tj fr">提交审核</span>
+        </div>
+        <!----------------------------------这里是右边按钮部分的代码！---------------------------------------->
+        <div class="My-zl">
+            <div class="title">
+                <span>我的资料</span><span class="fr" style="margin-right: 16px;font-size: 12px;;color: #FC9F06;">未提交审核</span>
+            </div>
+            <div style="padding:10px" id="test-info">
+                <ul>
+                    <li>职业测评得分：<span>65分</span></li>
+                    <li>专业测评得分N1：<span>4.1</span> </li>
+                    <li>专业测评得分N2：<span>4.1</span> </li>
+                    <li>专业测评得分N3：<span>4.1</span> </li>
+                    <li>专业测评得分N5：<span>4.1</span> </li>
+                </ul>
+            </div>
+        </div>
+        <!----------------------------------这里是右边测试部分的代码！---------------------------------------->
+        <div class="My-zl-T">
+            <div class="title">
+                <span>常见问题</span>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">如何写一份能接包的简历</a></li>
+                    <li><a href="#">如何正确设置自己的职业标签，<br>增加推荐机会和准确性！</a></li>
+                    <li><a href="#">如何正确设置自己的职业标签，<br>增加推荐机会和准确性！</a></li>
+                    <li><a href="#">如何写一份能接包的简历</a></li>
+                </ul>
+            </div>
+        </div>
+        <!----------------------------------这里是右边测试部分的代码！---------------------------------------->
+    </div>
+</div>
+<div style="clear: both;height: 39px;"></div>
+<div class="footer" id="footer">
+    <h4>Copyright©2015 中国移动</h4>
+</div>
+</body>
+</html>

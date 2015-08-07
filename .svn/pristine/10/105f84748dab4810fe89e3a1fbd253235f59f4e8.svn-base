@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>中国移动众包服务平台</title>
+
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../css/main_02.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/projectDetail.css">
+
+    <script src="../../bootstrap-3.3.5/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../../bootstrap-3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../js/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="p-header-01">
+    <div class="top-right">
+        <span id="username" class="username-box">
+            <a>
+                <img src="../../img/user_head_sm.png"></a>&nbsp;
+            <a>朵以</a>&nbsp;
+            <img src="../../img/icon_09.png">&nbsp;&nbsp;&nbsp;
+            <!--退出DIV-->
+            <div class="sign-out-box"><a>退出</a></div>
+        </span>
+        <span class="account-box">
+        <img src="../../img/icon_03.png">&nbsp;&nbsp;<a>账户</a></span>
+    </div>
+</div>
+<div class="p-nav">
+    <div id="nav-box">
+        <ul class="fl">
+            <li><a>首页</a></li>
+            <li><a>我的任务</a></li>
+            <li><a>我的钱包</a></li>
+            <li><a>培训考试</a></li>
+        </ul>
+        <div id="search-box">
+            <input type="text" id="search-ipt"/><img src="../../img/bt_bg_02.png">
+        </div>
+    </div>
+</div>
+<div id="main-box" class="main-box">
+    <div class="warn-msg-box">
+        您还没有完成实名认证，这将影响您的签约。快去<a>实名认证</a>吧;您还没有完善个人资料，这将影响您的签约。快去<a>完善个人资料</a>吧
+        <img class="fr cp" id="warn-close" src="../../img/close_bt_01.png" style="width: 38px">
+    </div>
+    <div class="pro-title-box">
+        <div class="pro-title-left fl">
+            <!--图片暂时去掉
+            <div class="pro-img-box fl">
+                <img src="../../img/pro_detail_01.png">
+            </div>-->
+            <div class="pro-title">
+                <h4 class="title-text">众包测试-1点提取测试派单</h4>
+            </div>
+            <table class="pro-des">
+                <tr>
+                    <td>编号：</td>
+                    <td>SE2179878962781687</td>
+                    <td style="padding-left:5px;">开始时间：</td>
+                    <td>2015-07-02</td>
+                </tr>
+            </table>
+        </div>
+        <div class="pro-get-button-box fl">
+            <img class="cp" src="../../img/telephone_03.png" style="width:81px;margin-bottom:10px">
+            <span class="cp" style="font-size: 24px;margin-left:20px;display: inline-block;margin-top:35px;">签入</span>
+        </div>
+    </div>
+    <div class="fl" style="width: 865px;">
+        <div class="pro-des-box fl">
+            <div class="detail-title">
+                <h4>项目详情</h4>
+            </div>
+            <table class="detail-item-01">
+                <tr>
+                    <td class="t1">任务类型：营销类</td>
+                    <td class="t2">任务状态：发布中</td>
+                </tr>
+                <tr>
+                    <td>任务数量：8</td>
+                    <td>已成交数量：0</td>
+                </tr>
+                <tr>
+                    <td>已分配数量：0</td>
+                    <td>已完成数量：0</td>
+                </tr>
+                <tr>
+                    <td colspan="2">预计任务结束时间：2015-07-31 11:20:10</td>
+                </tr>
+            </table>
+            <!--酬金明细表 700x151-->
+            <table class="fin-detail">
+                <tr>
+                    <th colspan="5">酬金明细表</th>
+                </tr>
+                <tr>
+                    <td>状态</td>
+                    <td>接通</td>
+                    <td>电话结束</td>
+                    <td>下单</td>
+                    <td>合计</td>
+                </tr>
+                <tr>
+                    <td>酬金</td>
+                    <td class="price">￥0.1</td>
+                    <td class="price">￥0.2</td>
+                    <td class="price">￥40</td>
+                    <td class="price">￥40.30</td>
+                </tr>
+            </table>
+        </div>
+        <div class="job-detail-item">
+            <h5>正在进行的任务</h5>
+
+            <div class="job-content-box">
+                <div class="pro-item-title">
+                    <span class="pro-item-02-title">任务记录</span>
+                    <span class="pro-line-01"></span>
+                <span class="spread-button cp" flag="0"><span>收起</span>&nbsp;&nbsp;<img
+                        src="../../img/icon_12.png"></span>
+                </div>
+                <ul>
+                    <li>项目编号：VWKA20321789732198379</li>
+                    <li>接单时间：2015-07-15 20:00:01</li>
+                    <li>任务有效期：2015-07-15 20:00:01</li>
+                    <li>接单方式：抢单</li>
+                    <li>导入号码量：200</li>
+                    <li>外呼量：10</li>
+                    <li>接通量：5</li>
+                    <li>下单量：2</li>
+                    <li>状态：未完成</li>
+                </ul>
+                <h5 style="border: none;text-align: left;margin:20px 16px;">外呼记录</h5>
+                <table class="call-record">
+                    <tr>
+                        <th>被叫号码</th>
+                        <th>拨打时间</th>
+                        <th>通话时长</th>
+                        <th>是否接通</th>
+                        <th>是否下单</th>
+                        <th>订单号</th>
+                        <th>备注</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                </table>
+            </div>
+            <h5 style="margin-top: 20px;">已经完成的任务</h5>
+
+            <div class="job-content-box">
+                <div class="pro-item-title">
+                    <span class="pro-item-02-title">任务记录</span>
+                    <span class="pro-line-01"></span>
+                    <span class="spread-button cp" flag="0">
+                            <span>收起</span>&nbsp;&nbsp;
+                        <img src="../../img/icon_12.png">
+                    </span>
+                </div>
+                <ul class="pucker">
+                    <li>项目编号：VWKA20321789732198379</li>
+                    <li>接单时间：2015-07-15 20:00:01</li>
+                    <li>任务有效期：2015-07-15 20:00:01</li>
+                    <li>接单方式：抢单</li>
+                    <li>导入号码量：200</li>
+                    <li>外呼量：10</li>
+                    <li>接通量：5</li>
+                    <li>下单量：2</li>
+                    <li>状态：未完成</li>
+                </ul>
+                <h5 class="pucker" style="border: none;text-align: left;margin:20px 16px;">外呼记录</h5>
+                <table class="call-record pucker">
+                    <tr>
+                        <th>被叫号码</th>
+                        <th>拨打时间</th>
+                        <th>通话时长</th>
+                        <th>是否接通</th>
+                        <th>是否下单</th>
+                        <th>订单号</th>
+                        <th>备注</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                </table>
+
+                <div class="pro-item-title">
+                    <span class="pro-item-02-title">任务记录</span>
+                    <span class="pro-line-01"></span>
+                <span class="spread-button cp" flag="0"><span>收起</span>&nbsp;&nbsp;<img
+                        src="../../img/icon_12.png"></span>
+                </div>
+                <ul>
+                    <li>项目编号：VWKA20321789732198379</li>
+                    <li>接单时间：2015-07-15 20:00:01</li>
+                    <li>任务有效期：2015-07-15 20:00:01</li>
+                    <li>接单方式：抢单</li>
+                    <li>导入号码量：200</li>
+                    <li>外呼量：10</li>
+                    <li>接通量：5</li>
+                    <li>下单量：2</li>
+                    <li>状态：未完成</li>
+                </ul>
+                <h5 style="border: none;text-align: left;margin:20px 16px;">外呼记录</h5>
+                <table class="call-record">
+                    <tr>
+                        <th>被叫号码</th>
+                        <th>拨打时间</th>
+                        <th>通话时长</th>
+                        <th>是否接通</th>
+                        <th>是否下单</th>
+                        <th>订单号</th>
+                        <th>备注</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                    <tr>
+                        <td class="t1">182****6564</td>
+                        <td>2015-07-16 10:23:10</td>
+                        <td>10'20"</td>
+                        <td>是</td>
+                        <td>是</td>
+                        <td>OD28173921821321321</td>
+                        <td></td>
+                        <td><a>外呼</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <div class="main-right-box fl">
+        <div class="connect-type">
+            <h4>联系方式</h4>
+
+            <p class="m-r-01">遇到困难，联系客服帮你搞定</p>
+
+            <p class="m-r-02">
+                <img src="../../img/telephone_01.png">
+                <span>400-064-0003</span>
+            </p>
+
+            <p class="m-r-03">
+                周一至周日 9:00~23:00
+            </p>
+        </div>
+        <div class="connect-type">
+            <h4>常见问题</h4>
+            <ul class="questions-list">
+                <li><a>如何快速得到接包机会</a></li>
+                <li><a>如何快速得到接包机会</a></li>
+                <li><a>如何快速得到接包机会</a></li>
+                <li><a>如何快速得到接包机会</a></li>
+                <li><a>如何快速得到接包机会</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div style="height:100px;clear: both"></div>
+<div class="footer" id="footer">
+    <h4>Copyright©2015 中国移动</h4>
+</div>
+</body>
+</html>

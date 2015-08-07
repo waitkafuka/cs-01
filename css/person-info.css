@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.mar {
+    margin-left: 100px;
+}
+
+.contain {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*-----------------------------以上是公共代码样式！------------------------------*/
+.l-con {
+    width: 865px;
+}
+
+.TX-QM {
+    width: 100%;
+    /*height:125px;*/
+}
+
+.TX-QM .qm {
+    margin-left: 20px;
+    padding-top: 10px;
+
+}
+
+.TX-QM .qm h {
+    font-size: 14px;
+}
+
+.TX-QM .qm h span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*-----------------------------以上是头像区代码样式！------------------------------*/
+.JB-mas {
+    margin-top: 20px;
+}
+
+.JB-mas .title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #fafafa;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px #e6e6e6 solid;
+    border-radius: 4px;
+    -webkit-border: 1px #e6e6e6 solid;
+    -moz-border: 1px #e6e6e6 solid;
+    -ms-border: 1px #e6e6e6 solid;
+    -o-border: 1px #e6e6e6 solid;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.mas {
+    width: 100%;
+    padding: 20px;
+    font-size: 12px;
+
+}
+
+/*---------------------------------------以上是左边部分代码样式！----------------------------------------*/
+.r-con {
+    width: 245px;
+}
+
+.r-con .btn {
+    width: 100%;
+    /*padding:0 10px;*/
+}
+
+.r-con .btn .bj, .r-con .btn .tj {
+    width: 110px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    background: #29ab8f;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.r-con .btn .tj {
+    background: #fa9f08;
+    margin-left: 12px;
+}
+
+.r-con .My-zl {
+    width: 100%;
+    height: 204px;
+    margin-top: 20px;
+    border: 1px #e6e6e6 solid;
+}
+
+.r-con .My-zl .title, .r-con .My-zl-T .title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fa9f08;
+    font-size: 12px;
+    background: #fafafa;
+    border-bottom: 1px #e6e6e6 solid;
+}
+
+.r-con .My-zl .title span, .r-con .My-zl-T .title span {
+    font-size: 18px;
+    color: #666666;
+    margin-right: 60px;
+    padding-left: 10px;
+}
+
+.r-con .My-zl ul li {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.r-con .My-zl ul li span {
+    font-size: 16px;
+    /*font-weight:bold;*/
+    color: #fa9f08;
+}
+
+.r-con .My-zl-T {
+    width: 100%;
+    height: 304px;
+    margin-top: 20px;
+    border: 1px #e6e6e6 solid;
+}
+
+.r-con .My-zl-T .li-s li {
+    list-style: outside disc;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.r-con .My-zl-T .li-s li a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.mas p {
+    height: 25px;
+}
+
+#test-info li {
+    height: 24px;
+}
+
+#test-info span, #test-info li {
+    font-size: 12px;
+}
+
+.My-zl-T li {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.in-edit{
+    border: 1px dashed #DFDFDF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 533px;
+    height: 106px;
+    padding-left: 10px;
+    margin-top: 1px;
+    position: relative;
+}
+.edit-bt{
+    width: 90px;
+    height: 30px;
+    border: 1px solid #DFDFDF;
+    background: #f9f9f9;
+    text-align: center;
+    float: right;
+    margin-right: 18px;
+    margin-top: 4px;
+    line-height: 1.8;
+}
+#edu-table tr,#base-info-table tr{
+    height: 23px;
+}
+#edu-table .t1,#base-info-table .t1{
+    width: 71px;
+}
+#edu-table .t2,#base-info-table .t2{
+    width: 222px;
+}
+#edu-table .t3,#base-info-table .t3{
+    width: 71px;
+}
+.edu-pro-box{
+    width: 153px;
+    height: 180px;
+    text-align: center;
+    position: relative;
+    float: left;
+}

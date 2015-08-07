@@ -1,0 +1,112 @@
+.container{
+    width: 710px;
+    margin:0 auto;
+}
+.header{
+    margin: 0px auto;
+    width:272px;
+    height: 76px;
+    padding-top:30px;
+    background: url("../img/logo_sm.png") no-repeat 0px 21px;
+}
+.header h3{
+    margin-left:59px;
+    color: #f0a604;
+    font-weight: bold;
+}
+.main{
+    background: url("../img/bg_02.png") no-repeat -51px -25px;
+    min-height: 589px;
+    width: inherit;
+    position: relative;
+}
+.main h3{
+    color:#1b7cc0;
+    position: absolute;
+    left: 40px;
+    top:44px;
+    font-weight: bolder;
+    z-index: 100;
+}
+.regist-box{
+    position: absolute;
+    left: 130px;
+    top: 145px;
+    font-size:14px;
+    font-weight: bold;
+    color: #808080;
+}
+.regist-box tr{
+    height: 55px;
+}
+.regist-box .t1{
+    width: 115px;
+    text-align: right;
+    padding-right: 7px;
+}
+.regist-box .t2{
+    width: 264px;
+}
+.regist-box .t3{
+    color: red;
+    font-size: 12px;
+    font-weight: 100;
+}
+.regist-box span{
+    color: #f1ad2e;
+}
+.regist-box .role{
+    font-size: 12px;
+    color: #9a9a9a;
+}
+.regist-box a{
+    color: #4f91cb;
+}
+.regist-box .check{
+    display: inline-block;
+    margin-top:-2px;
+}
+
+.regist-box input[type='button']{
+    width: 145px;
+    height: 32px;
+    border: 1px solid #e7e7e7;
+    line-height: 15px;
+    padding: 5px;
+    font-weight: 100;
+}
+.ipt-lg{
+    width: 242px;
+}
+.regist-box input[type='button']{
+    width: 103px;
+    text-align: center;
+}
+#sub-bt,#rg_bt,#sub-fwd2{
+    width: 213px;
+    height: 27px;
+    background-color: #fa9f08;
+    border: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    padding-top:3px;
+}
+#rg_bt{
+    background-color: #ffffff;
+    color: #99999B;
+    border: 1px solid #E6E6E6;
+}
+.bt_tips{
+    position: absolute;
+    left: 611px;
+    top:423px;
+}
+#fgt_pwd{
+    width: 213px;
+    height: 18px;
+    text-align: right;
+    font-size:12px;
+    font-weight: 100;
+}

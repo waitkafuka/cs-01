@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>中国移动众包服务平台</title>
+
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../css/main_02.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/projectDetail.css">
+
+    <script src="../../bootstrap-3.3.5/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../../bootstrap-3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../js/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="p-header-01">
+    <div class="top-right">
+        <span id="username" class="username-box">
+            <a>
+                <img src="../../img/user_head_sm.png"></a>&nbsp;
+            <a>朵以</a>&nbsp;
+            <img src="../../img/icon_09.png">&nbsp;&nbsp;&nbsp;
+            <!--退出DIV-->
+            <div class="sign-out-box"><a>退出</a></div>
+        </span>
+        <span class="account-box">
+        <img src="../../img/icon_03.png">&nbsp;&nbsp;<a>账户</a></span>
+    </div>
+</div>
+<div class="p-nav">
+    <div id="nav-box">
+        <ul class="fl">
+            <li><a>首页</a></li>
+            <li class="cr-page"><a>我的任务</a></li>
+            <li><a>我的钱包</a></li>
+            <li><a>培训考试</a></li>
+        </ul>
+    </div>
+</div>
+<div id="main-box" class="main-box">
+    <div class="warn-msg-box">
+        您还没有完成实名认证，这将影响您的签约。快去<a>实名认证</a>吧;您还没有完善个人资料，这将影响您的签约。快去<a>完善个人资料</a>吧
+        <img class="fr cp" id="warn-close" src="../../img/close_bt_01.png" style="width: 38px">
+    </div>
+
+    <div class="pro-des-box fl" id="left-box" style="padding: 0;border: 0;">
+        <div class="tool-bar">
+            <span>状态：</span><select class="form-control" style="width: 125px;margin-top:4px;display: inline-block">
+            <option>全部</option>
+            <option>未完成</option>
+            <option>已完成</option>
+        </select>
+        </div>
+        <!--单个任务item-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_01.png" class="job-state-img">
+        </div>
+        <!--单个任务item结束-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_02.png" class="job-state-img">
+        </div>
+        <!--单个任务item-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_01.png" class="job-state-img">
+        </div>
+        <!--单个任务item结束-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_02.png" class="job-state-img">
+        </div>
+        <!--单个任务item-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_01.png" class="job-state-img">
+        </div>
+        <!--单个任务item结束-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_02.png" class="job-state-img">
+        </div>
+        <!--单个任务item-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_01.png" class="job-state-img">
+        </div>
+        <!--单个任务item结束-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_02.png" class="job-state-img">
+        </div>
+        <!--单个任务item-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_01.png" class="job-state-img">
+        </div>
+        <!--单个任务item结束-->
+        <div class="item-box">
+            <div class="img-box"><img class="img-01" src="../../img/job_type_01.png"></div>
+            <div class="content-box" style="width:590px">
+                <h4><a>iPhone 6 plus</a></h4>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="t1">项目编号：</td>
+                        <td class="t2">20159089032810979832719832</td>
+                        <td class="t3">开始时间：</td>
+                        <td class="t4">2015-07-15</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务编号：</td>
+                        <td class="t2">2015892789137</td>
+                        <td class="t3">数量：</td>
+                        <td class="t4">8</td>
+                    </tr>
+                    <tr>
+                        <td class="t1">任务描述：</td>
+                        <td>生活赋予我们巨大和无限高贵的礼品，这就是青春：充满着力量，充满着期待，充满着求知和斗争的方向。</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img src="../../img/job_state_02.png" class="job-state-img">
+        </div>
+        <div class="page-box">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <span class="fl" style="margin-right: 21px;"> ... </span>
+                <li>200</li>
+                <li class="page-pre">上一页</li>
+                <li class="page-pre" style="margin-right:0px">下一页</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-right-box fl" id="right-box">
+        <div class="connect-type">
+            <h4>联系方式</h4>
+            <p class="m-r-01">遇到困难，联系客服帮你搞定</p>
+            <p class="m-r-02">
+                <img src="../../img/telephone_01.png">
+                <span>400-064-0003</span>
+            </p>
+
+            <p class="m-r-03">
+                周一至周日 9:00~23:00
+            </p>
+        </div>
+        <div class="connect-type">
+            <h4>常见问题</h4>
+            <ul class="questions-list">
+                <li><a>如何快速得到接包机会</a></li>
+                <li><a>如何快速得到接包机会</a></li>
+                <li><a>如何快速得到接包机会</a></li>
+                <li><a>如何快速得到接包机会</a></li>
+                <li><a>如何快速得到接包机会</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <h4>Copyright©2015 中国移动</h4>
+</div>
+</body>
+</html>

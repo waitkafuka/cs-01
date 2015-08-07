@@ -1,0 +1,8 @@
+/**
+ * Created by Administrator on 15-8-4.
+ */
+$(document).ready(function(){
+    $("div.container-left").delegate("h6","click",function(){
+        $(this).next("ul").slideToggle(200);
+    });
+});

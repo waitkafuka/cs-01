@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/info-edit.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/main_02.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/projectDetail.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/test.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/common.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/edit-page.js" charset="UTF-8" />
+  </component>
+</project>

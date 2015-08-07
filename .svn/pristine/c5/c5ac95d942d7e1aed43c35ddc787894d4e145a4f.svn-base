@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>中国移动众包服务平台</title>
+
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../css/main_02.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/myAccount.css">
+    <link rel="stylesheet" href="../../css/jobTest.css">
+
+    <script src="../../bootstrap-3.3.5/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../../bootstrap-3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../js/common.js" type="text/javascript"></script>
+    <style type="text/css">
+        div.right a:hover{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="p-header-01">
+    <div class="top-right">
+        <span id="username" class="username-box">
+            <a>
+                <img src="../../img/user_head_sm.png"></a>&nbsp;
+            <a>朵以</a>&nbsp;
+            <img src="../../img/icon_09.png">&nbsp;&nbsp;&nbsp;
+            <!--退出DIV-->
+            <div class="sign-out-box"><a>退出</a></div>
+        </span>
+        <span class="account-box">
+        <img src="../../img/icon_03.png">&nbsp;&nbsp;<a>账户</a></span>
+    </div>
+</div>
+<div class="p-nav">
+    <div id="nav-box">
+        <ul class="fl">
+            <li><a>首页</a></li>
+            <li><a>我的任务</a></li>
+            <li><a>我的钱包</a></li>
+            <li><a>培训考试</a></li>
+        </ul>
+    </div>
+</div>
+<div id="main-box" class="main-box">
+    <div class="warn-msg-box">
+        您还没有完成实名认证，这将影响您的签约。快去<a>实名认证</a>吧;您还没有完善个人资料，这将影响您的签约。快去<a>完善个人资料</a>吧
+        <img class="fr cp" id="warn-close" src="../../img/close_bt_01.png" style="width: 38px">
+    </div>
+    <div class="main-content">
+        <div class="left">
+            <div class="title">我的账号</div>
+            <ul class="settingTab">
+                <li class="settingTab-li"><a href="#">我的个人资料</a></li>
+                <li class="settingTab-li"><a href="#">我的实名认证</a></li>
+                <li class="settingTab-li"><a href="#">修改密码</a></li>
+                <li class="settingTab-li"><a href="#">修改手机号</a></li>
+                <li class="settingTab-li current_info_page"><a href="#">职业测评</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div id="account">
+                <div class="account_title">
+                    <h>我的账号</h>
+                </div>
+                <div class="spacer8"></div>
+                <div class="spacer8"></div>
+                <div class="spacer8"></div>
+                <div class="account_myinfo">
+                    <div class="imgbox floatleft">
+                        <img src="../../img/user_head_img_01.png">
+                    </div>
+                    <div class="infobox floatleft">
+
+                        <h1 class="name_gen">朵以</h1>
+                        <span class="pdlr4"></span>
+                        <a href="#" class="account_iconsign_cheng" title="诚信用户"></a>
+                        <a href="#" class="account_iconsign_realname_gray" title="实名认证"></a>
+                        <a href="#" class="kicon_level kicon_level_" title="等级"></a>
+                        <div>ID：123456</div>
+                    </div>
+                    <div class="floatright">
+                        <div class="spacer8"></div>
+                        <div class="spacer8"></div>
+                        <a id="profileLink" href="#" class="kbtn kbtn_gray kbtn30">编辑个人资料</a>
+
+                        <span class="pdlr4"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <!----------------------------------------- 以上是右边头像部分代码！----------------------------------------------->
+                <div class="zh_anquan">
+                    <div class="zh_title">账号安全</div>
+                    <div class="zh_aa">上次登录：2015年07月20日 16:20</div>
+                </div>
+                <!----------------------------------------- 以上是右边头像部分代码！----------------------------------------------->
+                <div class="mystar">
+                    <div class="zh_title">我的星级</div>
+                    <div><img src="../../img/star_03.png" width="178" height="26"></div>
+                </div>
+
+                <div class="my_jifen" style="height: 162px;">
+                    <div class="zh_title">我的积分</div>
+                    <table class="my-points-detail">
+                        <tr>
+                            <td class="t1">积分：</td><td>0</td>
+                        </tr>
+                        <tr>
+                            <td class="t1">总任务量：</td><td>0</td>
+                        </tr>
+                        <tr>
+                            <td class="t1">总拨打量：</td><td>0</td>
+                        </tr>
+                        <tr>
+                            <td class="t1">总成功量：</td><td>0</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="account_details">
+                    <div class="account_details_title">
+                        <span class="title">账号绑定</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="account_detailsbox">
+                        <ul class="identity">
+                            <li class="phone">
+                                <div class="phone-img fl"></div>
+                                <div class="right_01">
+                                   <span>手机绑定</span><i class="icon_ok"></i>
+                                    <div class="spacer4"></div>
+                                        <span class="gray">已绑定手机号码：157*****142</span>
+                                        <span class="pdlr8"></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </li>
+                            <li class="mail">
+                                <div class="mail-img fl"></div>
+                                <div class="right_01">
+                                        <span>个人邮箱绑定</span><i class="icon_nok"></i>
+                                        <span class="pdlr8"></span><br>
+                                        <span class="gray">可直接使用“邮箱”登录JointForce、快速找回密码，并收到中标、支付等重要提醒！</span>
+                                        <span class="pdlr4"></span>
+                                        <a href="https://www.jointforce.com/setting/showBindMailbox" class="kbtn kbtn_green kbtn26 font14">马上绑定</a>
+                                </div>
+                                <div class="clear"></div>
+                            </li>
+                        </ul>
+                        <div class="spacer8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="height:100px;clear: both"></div>
+<div class="footer" id="footer">
+    <h4>Copyright©2015 中国移动</h4>
+</div>
+</body>
+</html>

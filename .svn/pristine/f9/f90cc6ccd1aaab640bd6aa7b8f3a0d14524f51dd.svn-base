@@ -1,0 +1,81 @@
+.question-list a {
+    color: #979797;
+}
+
+#online-test-box h6 {
+    margin-left: 53px;
+    margin-top: 17px;
+    font-size: 13px;
+}
+
+.question-list {
+    margin-top: 10px;
+    margin-left: 78px;
+}
+
+.question-list li {
+    height: 25px;
+    font-size: 13px;
+}
+
+#test-person-info input {
+    border: none;
+    border-bottom: 1px solid #000;
+    line-height: 1.3;
+    font-family: "楷体";
+    text-align: center;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 18px;
+    padding-left: 0px;
+}
+
+#test-person-info .name {
+    width: 104px;
+}
+
+#test-person-info .sex {
+    width: 55px;
+}
+
+#test-person-info .answer-time {
+    width: 189px;
+}
+
+#test-person-info .remain-time {
+    width: 103px;
+    color: red;
+}
+
+.total-preview {
+    float: right;
+    font-size: 14px;
+    line-height: 2.1;
+    margin-top: 14px;
+}
+
+.question-item {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.question-item h3 {
+    color: inherit;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.test-list {
+    padding-top: 8px;
+    padding-left: 38px;
+}
+
+.test-list dd {
+    padding-left: 29px;
+}
+.question-item .button-box{
+    margin-top:20px;
+    text-align: center;
+    width: 100%;
+}

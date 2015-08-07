@@ -1,0 +1,20 @@
+.train-des{
+    margin-left:17px;
+    float: left;
+}
+.train-des img{
+    float: left;
+}
+.train-des h4,.train-des a{
+    color: #01C49C;
+}
+.train-des p{
+    line-height: 2.3;
+    height: 54px;
+}
+.media-box{
+    width: 100%;
+    text-align: center;
+    clear: both;
+    padding-top: 23px;
+}

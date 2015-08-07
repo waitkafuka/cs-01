@@ -1,0 +1,376 @@
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, img, dl, dt, dd, table, th, td, blockquote, fieldset, div, strong, label, em, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+.error-tips {
+    color: red;
+}
+
+div {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+th {
+    background: #fafafa;
+    height: 43px;
+}
+
+input, button {
+    margin: 0;
+    font-size: 12px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.data-loading {
+    position: fixed;
+    background: #000;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    display: none;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
+
+.data-loading img {
+    width: 33px;
+    position: absolute;
+    z-index: 1001;
+    left: 100px;
+    top: 100px;
+}
+
+input[type=text], input[type=password] {
+    width: 213px;
+    height: 32px;
+    border: 1px solid #E7E7E7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 2.6;
+    padding-left: 5px;
+}
+
+textarea {
+    width: 377px;
+    height: 111px;
+    overflow: hidden;
+    resize: none;
+    border: 1px solid #E7E7E7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.ok-button, .cancel-button {
+    width: 96px;
+    height: 35px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.mask-page {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* IE透明度 */
+    background: #000;
+    display: none;
+}
+
+.ok-button {
+    background: #29AB8F;
+    color: #ffffff;
+    border: none;
+}
+
+.cancel-button {
+    background: #FAFAFA;
+    border: 1px solid #E6E6E6;
+}
+
+body {
+    font-size: 12px;
+    font-family: 微软雅黑, 黑体, Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0 auto;
+    background: #fefefe
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    width: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: inherit;
+}
+
+/*��pre����*/
+pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.in_block {
+    display: inline-block;
+}
+
+.footer {
+    clear: both;
+    height: 63px;
+    min-width: 1200px;
+    position: relative;
+    background: url("../img/footer_bg_02.png") repeat-x;
+}
+
+.footer h4 {
+    clear: both;
+    color: darkgray;
+    position: absolute;
+    left: 219px;
+    top: 22px;
+    color: #ffffff;
+}
+
+.mt14 {
+    margin-top: 14px;
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.p-header-01, .wamp {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.p-header-01 {
+    height: 75px;
+    background: url("../img/header_bg_01.png") no-repeat 0px 5px;
+    position: relative;
+}
+
+.username-box, .account-box {
+    display: inline-block;
+    position: absolute;
+    left: 976px;
+    top: 23px;
+}
+
+.account-box {
+    left: 1079px;
+    top: 27px;
+}
+
+.sign-out-box {
+    background: url("../img/sign_out_pic_03.png") no-repeat;
+    width: 102px;
+    height: 51px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 1.6;
+    position: absolute;
+    left: 2px;
+    top: 24px;
+    display: none;
+}
+
+.gray-border {
+    border: 1px solid #E7E7E7;
+}
+
+.warn-msg-box {
+    height: 44px;
+    border: 2px solid #F6D731;
+    width: 100%;
+    margin-top: 21px;
+    padding-left: 51px;
+    padding-top: 2px;
+    line-height: 3;
+    background: url("../img/pic_02.png") no-repeat 1px 1px;
+	display:none;
+}
+
+.warn-msg-box a {
+    color: #55B9A1;
+}
+
+.top-right {
+    margin-right: 20px;
+    margin-top: 22px;
+    float: right;
+}
+
+.p-nav {
+    height: 55px;
+    min-width: 1200px;
+}
+
+.p-nav, .left-box-title {
+    background-color: #00C39B;
+}
+
+.p-nav #nav-box {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.p-nav #search-box {
+    float: right;
+    margin-right: 20px;
+}
+
+.p-nav li {
+    display: inline-block;
+    margin-right: 39px;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    line-height: 57px;
+    cursor: pointer;
+}
+
+.p-nav li, .left-box-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.p-nav a {
+    text-decoration: none;
+}
+
+.p-nav li:hover, .cr-page {
+    background-color: #059576;
+}
+
+#search-box #search-ipt {
+    background: url("../img/bt_bg_01.png") no-repeat;
+    width: 255px;
+    height: 38px;
+    border: none;
+    padding: 8px;
+    line-height: 24px;
+}
+
+#search-box #search-ipt, #search-box img {
+    margin-top: 9px;
+    margin-left: -2px;
+}
+
+#search-box img {
+    cursor: pointer;
+}
+
+.main-box {
+    width: 1200px;
+    min-height: 600px;
+    margin: 0px auto;
+}
+
+.main-box div {
+}
+
+.left-box, .middle-box, .right-box {
+    float: left;
+    margin-top: 22px;
+}
+
+.left-box, .right-box {
+    width: 230px;
+    min-height: 221px;
+}
+
+.middle-box, .right-box {
+    margin-left: 14px;
+    min-height: 300px;
+}
+
+.middle-box {
+    width: 712px;
+}
+
+.left-box-title {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.left-box-content {
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    border-top: none;
+    min-height: 221px;
+}
+
+.left-box-content ul {
+    width: 100%;
+}
+
+.left-box-content li {
+    height: 35px;
+    padding: 10px 13px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.left-box-content li:hover {
+    background-color: #F8F8F8;
+    color: #FE8802;
+}
+
+span.account-box img {
+    margin-bottom: 3px;
+}
+
+.current_info_page a {
+    color: #00C39B;
+}

@@ -1,0 +1,94 @@
+.edit-box {
+    width: 639px;
+    box-shadow: 0px 0px 12px #aaaaaa;
+    background: #ffffff;
+    position: absolute;
+}
+
+.edit-box .title {
+    height: 45px;
+    border-radius: 4px;
+    background: #29AB8F;
+    color: #ffffff;
+    padding-top: 12px;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.edit-box .title img{
+    width: 12px;
+}
+.edit-head-left{
+    margin-left: 54px;
+    margin-top:20px;
+    width: 261px;
+    text-align: center;
+    position: relative;
+}
+.edit-head-left p{
+    margin-top:10px;
+}
+.edit-head-left input,.file-cover{
+    margin-top:20px;
+    width: 100px;
+    height: 37px;
+    border: 1px solid #dfdfdf;
+    background-color: #e6e6e6;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    cursor: pointer;
+}
+.edit-head-right{
+    margin-left:76px;
+    margin-top: 21px;
+}
+.edit-head-right input{
+    width: 85px;
+    height: 29px;
+    background: #E6E6E6;
+    border: 1px solid #DFDFDF;
+}
+.edit-head-right p{
+    line-height: 2.2;
+    margin-top:21px;
+}
+#user-head-pre-img *{
+    display: inline-block;
+    margin-top:20px;
+}
+.vertital-line{
+    display: block;
+    height: 310px;
+    position: absolute;
+    left: 343px;
+    top:60px;
+    border-left: 1px solid #E6E6E6;
+}
+.edit-content-box{
+    background: #f9f9f9;
+    padding-top:23px;
+}
+.edit-content-box tr{
+    height: 49px;
+}
+.edit-content-box .t1{
+    text-align: right;
+}
+.edit-content-box .t2{
+    padding-left:5px;
+}
+.edit-content-box input[type=radio]{
+    margin:0;
+}
+.edit-content-box table{
+    width: 450px;
+    margin:0px auto;
+}
+.edit-content-box span{
+    color: red;
+}
+.edit-content-box select{
+    display: inline-block;
+    height: 32px;
+    width: 100px;
+}

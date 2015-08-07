@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>中国移动众包服务平台</title>
+
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../css/main_02.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/projectDetail.css">
+    <link rel="stylesheet" href="../../css/person-info.css">
+    <link rel="stylesheet" href="../../css/info-edit.css">
+
+    <script src="../../bootstrap-3.3.5/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../../bootstrap-3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../js/common.js" type="text/javascript"></script>
+    <script src="../../js/edit-page.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="p-header-01">
+    <div class="top-right">
+        <span id="username" class="username-box">
+            <a>
+                <img src="../../img/user_head_sm.png"></a>&nbsp;
+            <a>朵以</a>&nbsp;
+            <img src="../../img/icon_09.png">&nbsp;&nbsp;&nbsp;
+            <!--退出DIV-->
+            <div class="sign-out-box"><a>退出</a></div>
+        </span>
+        <span class="account-box">
+        <img src="../../img/icon_03.png">&nbsp;&nbsp;<a>账户</a></span>
+    </div>
+</div>
+<div class="p-nav">
+    <div id="nav-box">
+        <ul class="fl">
+            <li><a>首页</a></li>
+            <li><a>我的任务</a></li>
+            <li><a>我的钱包</a></li>
+            <li><a>培训考试</a></li>
+        </ul>
+    </div>
+</div>
+<div id="main-box" class="main-box">
+    <div class="warn-msg-box">
+        您还没有完成实名认证，这将影响您的签约。快去<a>实名认证</a>吧;您还没有完善个人资料，这将影响您的签约。快去<a>完善个人资料</a>吧
+        <img class="fr cp" id="warn-close" src="../../img/close_bt_01.png" style="width: 38px">
+    </div>
+
+    <div class="l-con fl" id="left-box">
+        <div class="TX-QM">
+            <div style="position: relative;">
+                <img target="edit-head-img" src="../../img/img_03.png" style="width: 107px;" alt="这里是头像。" class="fl cp"
+                     id="head-img">
+                <img target="edit-head-img" id="head-img" class="cp"
+                     style="position: absolute;left: 76px;top: 73px;-webkit-border-radius: inherit;-moz-border-radius: inherit;border-radius: inherit;"
+                     src="../../img/edit_head_img_01.png"/>
+            </div>
+            <div class="qm fl in-edit">
+                <h><span>石头</span> （张**） 男 27岁</h>
+                <p>我就是我，天空下不一样的烟火！</p>
+                <input target="edit-info-01" class="edit-bt" value="编 辑"
+                       style="position: absolute;left: 423px;top: 16px;" type="button">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!----------------------------------这里是头像部分的代码！------------------------------------->
+        <div class="JB-mas">
+            <div class="title">基本信息 <input target="edit-info-02" class="edit-bt" value="编 辑" type="button"></div>
+            <div class="mas">
+                <table id="base-info-table">
+                    <tr>
+                        <td class="t1">电子邮箱：</td>
+                        <td class="t2">243049106@qq.com</td>
+                        <td class="t3">手机号码：</td>
+                        <td>18238825333</td>
+                    </tr>
+                    <tr>
+                        <td>详细地址：</td>
+                        <td>河南省郑州市中原区</td>
+                        <td>目前情况：</td>
+                        <td>离职</td>
+                    </tr>
+                </table>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!----------------------------------这里是基本信息部分的代码！---------------------------------
+        <div class="JB-mas" style="margin-top: 0;">
+            <div class="title">身份信息<input class="edit-bt" value="编 辑" type="button"></div>
+            <table class="mas" style="margin-top:19px;margin-left: 21px;">
+                <tbody>
+                <tr>
+                    <td style="width: 90px;">
+                        <p>身份证号：</p>
+                    </td>
+                    <td>
+                        411024198823254417
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle;padding-top:10px">
+                        <span>身份证资料：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td style="padding-top:10px">
+                        <img src="../../img/no_img_01.png" width="107" height="107" alt="  ">
+                    </td>
+
+                </tr>
+                </tbody>
+            </table>
+        </div>---->
+        <!----------------------------------这里是身份信息部分的代码！------------------------------------->
+        <div class="JB-mas">
+            <div class="title">教育经历<input target="edit-tech-ex" class="edit-bt" value="编 辑" type="button"></div>
+            <table class="mas" style="margin-top:19px;margin-left: 21px;" id="edu-table">
+                <tbody>
+                <tr>
+                    <td class="t1">
+                        时间：
+                    </td>
+                    <td class="t2">
+                        2015年07月20号 - 至今
+                    </td>
+                    <td class="t3">
+                        毕业院校：
+                    </td>
+                    <td>
+                        洛阳师范学院
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: middle;">
+                        <span>专业：</span>
+                    </td>
+                    <td>
+                        电子商务
+                    </td>
+                    <td style="vertical-align: middle;">
+                        <span>学历：</span>
+                    </td>
+                    <td>
+                        本科
+                    </td>
+                </tr>
+                <tr>
+                    <td>学位：</td>
+                    <td>学士</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="mas">
+                <div>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td style="vertical-align: middle;">
+                                <span>学历证明：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            <td>
+                                <img src="../../img/no_img_01.png" width="107" height="107" alt="  ">
+                            </td>
+                            <td style="vertical-align: middle; padding-left:80px;">
+                                <span>学位证明：</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                            <td>
+                                <img src="../../img/no_img_01.png" width="107" height="107" alt="  ">
+                            </td>
+
+                            <!-- <div class="clearfix"></div>-->
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------这里是教育经历部分的代码！------------------------------------->
+    </div>
+    <div class="r-con fr" id="right-box">
+        <div class="btn" style="padding:0">
+            <span class="bj" style="width: 100%;;">完成个人资料</span>
+        </div>
+        <!----------------------------------这里是右边按钮部分的代码！---------------------------------------->
+        <div class="My-zl">
+            <div class="title">
+                <span>我的资料</span><span class="fr"
+                                       style="margin-right: 16px;font-size: 12px;;color: #FC9F06;">未提交审核</span>
+            </div>
+            <div style="padding:10px" id="test-info">
+                <ul>
+                    <li>职业测评得分：<span>65分</span></li>
+                    <li>专业测评得分N1：<span>4.1</span></li>
+                    <li>专业测评得分N2：<span>4.1</span></li>
+                    <li>专业测评得分N3：<span>4.1</span></li>
+                    <li>专业测评得分N5：<span>4.1</span></li>
+                </ul>
+            </div>
+        </div>
+        <!----------------------------------这里是右边测试部分的代码！---------------------------------------->
+        <div class="My-zl-T">
+            <div class="title">
+                <span>常见问题</span>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">如何写一份能接包的简历</a></li>
+                    <li><a href="#">如何正确设置自己的职业标签，<br>增加推荐机会和准确性！</a></li>
+                    <li><a href="#">如何正确设置自己的职业标签，<br>增加推荐机会和准确性！</a></li>
+                    <li><a href="#">如何写一份能接包的简历</a></li>
+                </ul>
+            </div>
+        </div>
+        <!----------------------------------这里是右边测试部分的代码！---------------------------------------->
+    </div>
+</div>
+<div style="clear: both;height: 39px;"></div>
+<div class="footer" id="footer">
+    <h4>Copyright©2015 中国移动</h4>
+</div>
+<!--隐藏的编辑框-->
+<!--定义一个遮罩层-->
+<div class="mask-page"></div>
+<!--编辑头像-->
+<div class="edit-box" id="edit-head-img" style="display: none;">
+    <div class="title">修改头像
+        <img src="../../img/bt_close_01.png" style="float:right;margin-right:18px;margin-top: 5px;"
+             class="cp">
+    </div>
+    <div class="edit-head-left fl">
+        <img src="../../img/user_head_img_01.png">
+
+        <p>仅支持JPG、PNG、GIF格式，文件小于5M</p>
+        <input type="file" value="选择图片" style="opacity: 0;z-index: 100;outline: none;filter:alpha(opacity=0)"
+               class="cp">
+        <input type="button" value="选择图片" class="cp">
+    </div>
+    <span class="vertital-line"></span>
+
+    <div class="edit-head-right fl">
+        <h3>头像预览</h3>
+
+        <p>您上传的头像将自动生成头像，请注<br>意小尺寸的头像是否清晰。</p>
+
+        <div style="text-align: center" id="user-head-pre-img">
+            <img src="../../img/user_head_img_01.png" style="width: 125px;border-radius: 4px;margin-top:20px"><br>
+            <input type="button" value="上传" style="border: 1px solid #058C6E;background: #29AB8F;"><br>
+            <input type="button" class="cancel-button" value="取消"></div>
+    </div>
+</div>
+<!--编辑个人资料-->
+<div class="edit-box" style="margin:10px auto;display: none;min-height: 439px;;" id="edit-info-01">
+    <div class="title">编辑个人资料 <img src="../../img/bt_close_01.png"
+                                   style="float:right;margin-right:18px;margin-top: 5px;"
+                                   class="cp"></div>
+    <div class="edit-content-box">
+        <table>
+            <tr>
+                <td class="t1"><span>*</span>姓名：</td>
+                <td class="t2"><input type="text" class=""></td>
+            </tr>
+            <tr>
+                <td class="t1"><span>*</span>昵称：</td>
+                <td class="t2"><input type="text" class=""></td>
+            </tr>
+            <tr>
+                <td class="t1">性别：</td>
+                <td class="t2"><input type="radio" name="sex"> 男&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex">
+                    女
+                </td>
+            </tr>
+            <tr>
+                <td class="t1">出生日期：</td>
+                <td class="t2"><input type="text" class=""></td>
+            </tr>
+            <tr>
+                <td class="t1">个性签名：</td>
+                <td class="t2"><textarea></textarea></td>
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%;text-align: center;margin-top:13px;">
+        <input type="button" value="确 定" class="ok-button">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="取 消"
+               class="cancel-button"></div>
+</div>
+<!--编辑个人资料03-->
+<div class="edit-box" style="margin:10px auto;display: none;min-height: 325px;" id="edit-info-02">
+    <div class="title">编辑个人资料 <img src="../../img/bt_close_01.png"
+                                   style="float:right;margin-right:18px;margin-top: 5px;"
+                                   class="cp"></div>
+    <div class="edit-content-box">
+        <table>
+            <tr>
+                <td class="t1">电子邮箱：</td>
+                <td class="t2"><input type="text" class=""></td>
+            </tr>
+            <tr>
+                <td class="t1">手机号码：</td>
+                <td class="t2">18037226583</td>
+            </tr>
+            <tr>
+                <td class="t1">详细地址：</td>
+                <td class="t2">
+                    <select class="form-control">
+                        <option>河南省</option>
+                    </select>
+                    <select class="form-control">
+                        <option>洛阳市</option>
+                    </select>
+                    <select class="form-control">
+                        <option>洛龙区</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="t1">目前状况：</td>
+                <td class="t2"><select class="form-control">
+                    <option>离职</option>
+                    <option>在职</option>
+                </select></td>
+            </tr>
+        </table>
+    </div>
+    <div style="width: 100%;text-align: center;margin-top:14px;">
+        <input type="button" value="确 定" class="ok-button">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="取 消"
+               class="cancel-button"></div>
+</div>
+<!--编辑教育经历-->
+<div class="edit-box" id="edit-tech-ex" style="min-height: 626px;display: none;">
+    <div class="title">编辑教育经历 <img src="../../img/bt_close_01.png"
+                                   style="float:right;margin-right:18px;margin-top: 5px;"
+                                   class="cp"></div>
+    <div class="edit-content-box">
+        <table>
+            <tr>
+                <td class="t1"><span>*</span>时间：</td>
+                <td class="t2"><input type="text" style="width: 158px;"> -- <input type="text" class=""
+                                                                                   style="width: 158px;"> <input
+                        type="checkbox"> 至今
+                </td>
+            </tr>
+            <tr>
+                <td class="t1"><span>*</span>毕业院校：</td>
+                <td class="t2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="t1"><span>*</span>专业：</td>
+                <td class="t2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="t1"><span>*</span>学历：</td>
+                <td class="t2"><select class="form-control" style="width: 213px;border:1px solid #E7E7E7;padding-left: 5px;">
+                    <option>本科</option>
+                    <option>硕士</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="t1"><span>*</span>学位：</td>
+                <td class="t2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="t1" style="vertical-align: top;padding-top:10px;"><span>*</span>学历证明：</td>
+                <td class="t2" style="padding-top:10px;">
+                    <div class="edu-pro-box">
+                        <img src="../../img/no_img_01.png" width="107" height="107" alt="  ">
+                        <br>
+                        <input type="file" value="选择图片" style="left:34px;top:103px;opacity: 0;z-index: 100;outline: none;filter:alpha(opacity=0)"
+                               class="cp file-cover">
+                        <input type="button" value="选择图片" style="left:34px;top:103px;background: #ffffff;width: 81px;height: 31px;" class="cp file-cover">
+                    </div>
+                    <div class="edu-pro-box" style="margin-left: 20px;">
+                        <img src="../../img/no_img_01.png" width="107" height="107" alt="  ">
+                        <br>
+                        <input type="file" value="选择图片" style="left:34px;top:103px;opacity: 0;z-index: 100;outline: none;filter:alpha(opacity=0)"
+                               class="cp file-cover">
+                        <input type="button" value="选择图片" style="left:34px;top:103px;background: #ffffff;width: 81px;height: 31px;" class="cp file-cover">
+                    </div>
+                    <p class="clear" style="height: 66px;line-height: 1.8;color: #FF9026;">
+                        仅支持jpg、png、gif格式的图片，图片小于5M。<br>
+                        您上传的图片将会自动生成缩略图，请注意图片是否清晰。
+                    </p>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div style="width: 100%;text-align: center;margin-top:13px;">
+        <input type="button" value="确 定" class="ok-button">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="取 消"
+               class="cancel-button"></div>
+</div>
+
+</body>
+</html>

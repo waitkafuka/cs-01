@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>中国移动众包服务平台</title>
+
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../css/main_02.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/jobTest.css">
+    <link rel="stylesheet" href="../../css/test.css">
+
+    <script src="../../bootstrap-3.3.5/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../../bootstrap-3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../js/common.js" type="text/javascript"></script>
+    <script src="../../js/user-test.js" type="text/javascript"></script>
+    <!--给当前页面再加点另外的样式-->
+    <style type="text/css">
+        .online-test-answer dt{
+        }
+    </style>
+</head>
+<body style="overflow-y: scroll">
+<div class="p-header-01">
+    <div class="top-right">
+        <span id="username" class="username-box">
+            <a>
+                <img src="../../img/user_head_sm.png"></a>&nbsp;
+            <a>朵以</a>&nbsp;
+            <img src="../../img/icon_09.png">&nbsp;&nbsp;&nbsp;
+            <!--退出DIV-->
+            <div class="sign-out-box"><a>退出</a></div>
+        </span>
+        <span class="account-box">
+        <img src="../../img/icon_03.png">&nbsp;&nbsp;<a>账户</a></span>
+    </div>
+</div>
+<div class="p-nav">
+    <div id="nav-box">
+        <ul class="fl">
+            <li><a>首页</a></li>
+            <li><a>我的任务</a></li>
+            <li><a>我的钱包</a></li>
+            <li class="cr-page"><a>培训考试</a></li>
+        </ul>
+    </div>
+</div>
+<div id="main-box" class="main-box" style="min-height: 400px;">
+    <div class="main-content" id="online-test-box">
+        <!--左侧导航-->
+        <div class="container-left" style="min-height: 400px;">
+            <div class="title">所有试题</div>
+            <h6>一、选择题</h6>
+            <ul class="question-nav" target="single-select">
+                <li questionId="1"><a>第一题</a></li>
+                <li><a>第二题</a></li>
+                <li><a>第三题</a></li>
+                <li><a>第四题</a></li>
+                <li><a>第五题</a></li>
+            </ul>
+            <h6>二、多选题</h6>
+            <ul class="question-nav" target="multi-select">
+                <li><a>第一题</a></li>
+                <li><a>第二题</a></li>
+                <li><a>第三题</a></li>
+                <li><a>第四题</a></li>
+                <li><a>第五题</a></li>
+            </ul>
+            <h6>三、判断题</h6>
+            <ul class="question-nav" target="judgment-question">
+                <li><a>第一题</a></li>
+                <li><a>第二题</a></li>
+                <li><a>第三题</a></li>
+                <li><a>第四题</a></li>
+                <li><a>第五题</a></li>
+            </ul>
+            <h6>四、简答题</h6>
+            <ul class="question-nav" target="short-answer-question">
+                <li><a>第一题</a></li>
+                <li><a>第二题</a></li>
+                <li><a>第三题</a></li>
+                <li><a>第四题</a></li>
+                <li><a>第五题</a></li>
+            </ul>
+        </div>
+        <!--右侧答题区-->
+        <div class="container-right" style="min-height: 300px;">
+            <div class="right-title" id="test-person-info">
+                姓名：<input class="name" type="text" value="朵以">&nbsp;&nbsp;
+                性别：<input type="text" class="sex" value="男">&nbsp;&nbsp;
+                答卷时间：<input type="text" value="2015-08-03 16:30" class="answer-time">&nbsp;&nbsp;
+                剩余考试时间：<input type="text" value="01:10:05" class="remain-time">
+                <span class="total-preview">第1题/共20题</span>
+            </div>
+            <!--单选题-->
+            <div class="question-item single-select" >
+                <h3>一、单选题</h3>
+                <div class="test-list online-test-answer">
+                    <dl>
+                        <dt>1.大多数国家的人们见面问候的最普遍的方式是</dt>
+                        <br>
+                        <dd><input type="radio" name="1"  checked="checked"><span> A.握手</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> B.鞠躬</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> C.作揖</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> D.亲吻</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>2.大多数国家的人们见面问候的最普遍的方式是</dt>
+                        <br>
+                        <dd><input type="radio" name="1" checked="checked"><span> A.握手</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> B.鞠躬</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> C.作揖</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> D.亲吻</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>3.大多数国家的人们见面问候的最普遍的方式是</dt>
+                        <br>
+                        <dd><input type="radio" name="1"  checked="checked"><span> A.握手</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> B.鞠躬</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> C.作揖</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> D.亲吻</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>4.大多数国家的人们见面问候的最普遍的方式是</dt>
+                        <br>
+                        <dd><input type="radio" name="1"  checked="checked"><span> A.握手</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> B.鞠躬</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> C.作揖</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> D.亲吻</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>5.大多数国家的人们见面问候的最普遍的方式是</dt>
+                        <br>
+                        <dd><input type="radio" name="1" checked="checked"><span> A.握手</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> B.鞠躬</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> C.作揖</span></dd>
+                        <br>
+                        <dd><input type="radio" name="1"><span> D.亲吻</span></dd>
+                    </dl>
+                </div>
+            </div>
+            <!--多选题-->
+            <div class="question-item multi-select">
+                <h3>二、多选题</h3>
+                <div class="test-list online-test-answer">
+                    <dl>
+                        <dt>1.网络改变着人们的工作、学习和生活方式，尤其对青少年成长产生着深刻的影响。请你从信息获取的角度分析网络所带来的消极影响主要是</dt>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> A.病毒</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> B.垃圾信息量</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> C.不良信息</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> D.知识产权</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>1.网络改变着人们的工作、学习和生活方式，尤其对青少年成长产生着深刻的影响。请你从信息获取的角度分析网络所带来的消极影响主要是</dt>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> A.病毒</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> B.垃圾信息量</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> C.不良信息</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> D.知识产权</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>1.网络改变着人们的工作、学习和生活方式，尤其对青少年成长产生着深刻的影响。请你从信息获取的角度分析网络所带来的消极影响主要是</dt>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> A.病毒</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> B.垃圾信息量</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> C.不良信息</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> D.知识产权</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>1.网络改变着人们的工作、学习和生活方式，尤其对青少年成长产生着深刻的影响。请你从信息获取的角度分析网络所带来的消极影响主要是</dt>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> A.病毒</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> B.垃圾信息量</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> C.不良信息</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> D.知识产权</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>1.网络改变着人们的工作、学习和生活方式，尤其对青少年成长产生着深刻的影响。请你从信息获取的角度分析网络所带来的消极影响主要是</dt>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> A.病毒</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"  checked="checked"><span> B.垃圾信息量</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> C.不良信息</span></dd>
+                        <br>
+                        <dd><input type="checkbox" name="2"><span> D.知识产权</span></dd>
+                    </dl>
+                </div>
+            </div>
+            <!--判断题-->
+            <div class="question-item judgment-question">
+                <h3>三、判断题</h3>
+                <div class="test-list online-test-answer">
+                    <dl>
+                        <dt>1.日常工作总是在很短的时间内完成，而项目则要跨越数年或更长时间</dt>
+                        <br>
+                        <dd><input type="radio"  checked="checked"><span> A.正确</span></dd>
+                        <dd><input type="radio"><span> B.错误</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>1.日常工作总是在很短的时间内完成，而项目则要跨越数年或更长时间</dt>
+                        <br>
+                        <dd><input type="radio"  checked="checked"><span> A.正确</span></dd>
+                        <dd><input type="radio"><span> B.错误</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>1.日常工作总是在很短的时间内完成，而项目则要跨越数年或更长时间</dt>
+                        <br>
+                        <dd><input type="radio"  checked="checked"><span> A.正确</span></dd>
+                        <dd><input type="radio"><span> B.错误</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>1.日常工作总是在很短的时间内完成，而项目则要跨越数年或更长时间</dt>
+                        <br>
+                        <dd><input type="radio"  checked="checked"><span> A.正确</span></dd>
+                        <dd><input type="radio"><span> B.错误</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>1.日常工作总是在很短的时间内完成，而项目则要跨越数年或更长时间</dt>
+                        <br>
+                        <dd><input type="radio"  checked="checked"><span> A.正确</span></dd>
+                        <dd><input type="radio"><span> B.错误</span></dd>
+                    </dl>
+                </div>
+            </div>
+            <!--简答题-->
+            <div class="question-item short-answer-question">
+                <h3>四、简答题</h3>
+                <div class="test-list online-test-answer">
+                    <dl>
+                        <dt>1.申请加入中国共产党应具备什么样的条件？</dt>
+                        <br>
+                        <textarea style="width: 50%;resize: horizontal;max-width: 100%;">承认党的纲领和章程。这里所说承认党的章程，不只是口头上的拥护和接受，更重要的是要有实现党的纲领、执行党的章程的决心和表现。党的总纲就是党的简要纲领，它规定了党在现阶段的奋斗目标和党的最终目标。承认党的刚领就是要百折不挠的为建设社会主义强国，为实现社会主义制度而奋斗，甚至随时准备牺牲自己的一切，只有这样的同志才可以申请加入中国共产党</textarea>
+                    </dl>
+                    <dl>
+                        <dt>1.申请加入中国共产党应具备什么样的条件？</dt>
+                        <br>
+                        <textarea style="width: 50%;resize: horizontal;max-width: 100%;">承认党的纲领和章程。这里所说承认党的章程，不只是口头上的拥护和接受，更重要的是要有实现党的纲领、执行党的章程的决心和表现。党的总纲就是党的简要纲领，它规定了党在现阶段的奋斗目标和党的最终目标。承认党的刚领就是要百折不挠的为建设社会主义强国，为实现社会主义制度而奋斗，甚至随时准备牺牲自己的一切，只有这样的同志才可以申请加入中国共产党</textarea>
+                    </dl>
+                    <dl>
+                        <dt>1.申请加入中国共产党应具备什么样的条件？</dt>
+                        <br>
+                        <textarea style="width: 50%;resize: horizontal;max-width: 100%;">承认党的纲领和章程。这里所说承认党的章程，不只是口头上的拥护和接受，更重要的是要有实现党的纲领、执行党的章程的决心和表现。党的总纲就是党的简要纲领，它规定了党在现阶段的奋斗目标和党的最终目标。承认党的刚领就是要百折不挠的为建设社会主义强国，为实现社会主义制度而奋斗，甚至随时准备牺牲自己的一切，只有这样的同志才可以申请加入中国共产党</textarea>
+                    </dl>
+                    <dl>
+                        <dt>1.申请加入中国共产党应具备什么样的条件？</dt>
+                        <br>
+                        <textarea style="width: 50%;resize: horizontal;max-width: 100%;">承认党的纲领和章程。这里所说承认党的章程，不只是口头上的拥护和接受，更重要的是要有实现党的纲领、执行党的章程的决心和表现。党的总纲就是党的简要纲领，它规定了党在现阶段的奋斗目标和党的最终目标。承认党的刚领就是要百折不挠的为建设社会主义强国，为实现社会主义制度而奋斗，甚至随时准备牺牲自己的一切，只有这样的同志才可以申请加入中国共产党</textarea>
+                    </dl>
+                    <dl>
+                        <dt>1.申请加入中国共产党应具备什么样的条件？</dt>
+                        <br>
+                        <textarea style="width: 50%;resize: horizontal;max-width: 100%;">承认党的纲领和章程。这里所说承认党的章程，不只是口头上的拥护和接受，更重要的是要有实现党的纲领、执行党的章程的决心和表现。党的总纲就是党的简要纲领，它规定了党在现阶段的奋斗目标和党的最终目标。承认党的刚领就是要百折不挠的为建设社会主义强国，为实现社会主义制度而奋斗，甚至随时准备牺牲自己的一切，只有这样的同志才可以申请加入中国共产党</textarea>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--放置一个清除浮动div，撑大外层高度-->
+    <div class="clear"></div>
+</div>
+<div style="height:20px;clear: both"></div>
+<div class="footer" id="footer">
+    <h4>Copyright©2015 中国移动</h4>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("input,textarea").attr("disabled","disabled");
+    });
+</script>
+</body>
+</html>

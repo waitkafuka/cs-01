@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>中国移动众包服务平台</title>
+
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../css/main_02.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/jobTest.css">
+
+    <script src="../../bootstrap-3.3.5/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="../../bootstrap-3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../js/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="p-header-01">
+    <div class="top-right">
+        <span id="username" class="username-box">
+            <a>
+                <img src="../../img/user_head_sm.png"></a>&nbsp;
+            <a>朵以</a>&nbsp;
+            <img src="../../img/icon_09.png">&nbsp;&nbsp;&nbsp;
+            <!--退出DIV-->
+            <div class="sign-out-box"><a>退出</a></div>
+        </span>
+        <span class="account-box">
+        <img src="../../img/icon_03.png">&nbsp;&nbsp;<a>账户</a></span>
+    </div>
+</div>
+<div class="p-nav">
+    <div id="nav-box">
+        <ul class="fl">
+            <li><a>首页</a></li>
+            <li><a>我的任务</a></li>
+            <li><a>我的钱包</a></li>
+            <li><a>培训考试</a></li>
+        </ul>
+    </div>
+</div>
+<div id="main-box" class="main-box">
+
+    <div class="warn-msg-box">
+        您还没有完成实名认证，这将影响您的签约。快去<a>实名认证</a>吧;您还没有完善个人资料，这将影响您的签约。快去<a>完善个人资料</a>吧
+        <img class="fr cp" id="warn-close" src="../../img/close_bt_01.png" style="width: 38px">
+    </div>
+    <div class="main-content">
+        <div class="container-left">
+            <div class="title">我的账号</div>
+            <ul class="settingTab">
+                <li class="settingTab-li"><a href="#">我的个人资料</a></li>
+                <li class="settingTab-li current_info_page"><a href="#">我的实名认证</a></li>
+                <li class="settingTab-li"><a href="#">修改密码</a></li>
+                <li class="settingTab-li"><a href="#">修改手机号</a></li>
+                <li class="settingTab-li"><a href="#">职业测评</a></li>
+            </ul>
+        </div>
+        <div class="container-right">
+            <form>
+                <div class="right-title">实名认证</div>
+                <div class="auth-content">
+                    <!--<h3>实名认证可以提高信任级别，提高签单成功率。实名认证也是开通个人资金账户的前提条件。<br>
+                        实名认证需要您提供本人身份信息，审核需要1-3个工作日。您所提交的信息将得到中国移动的严格保密</h3-->
+                    <div class="auth-reject">
+                        <div class="fund-box"></div><span class="warn-msg">对不起，您提交的认证信息未通过审核</span><br>
+                        <span id="reject-reason">理由如下：请上传手持身份证近照</span>
+                    </div>
+                    <p style="font-size: 16px;margin-top:33px;">请按照提示填写本人真实的资料</p>
+                    <table class="auth-info">
+                        <tr class="height-01">
+                            <td class="t1"><span class="nec">*</span> 真实姓名：</td>
+                            <td class="t2"><input class="ipt-lg" type="text"/></td>
+                        </tr>
+                        <tr class="height-01">
+                            <td class="t1"><span class="nec">*</span> 身份证号码：</td>
+                            <td class="t2"><input class="ipt-lg" type="text"/></td>
+                        </tr>
+                        <tr class="height-01">
+                            <td class="t1"><span class="nec">*</span> 身份证有效期：</td>
+                            <td class="t2"><span class="s-01"><input type="radio" name="validate-time"/>
+                               有效期至日期 </span><input class="ipt-sm" type="text" style="width: 118px;margin-left: 7px;"/>
+                            </td>
+                            <img style="position: absolute;left:419px; top:270px;" src="../../img/id_card_01.png">
+                        </tr>
+                        <tr class="" style="height: 20px;;">
+                            <td class="t1"></td>
+                            <td class="t2"><input type="radio" name="validate-time"/>
+                                长期--仅针对身份证有效期为长期的用户
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="auth-info" style="margin-top: 75px;">
+                        <tr class="height-02">
+                            <td class="t1"><span class="nec">*</span> 手持身份证图片：</td>
+                            <td class="t2">
+                                <div class="id-card-box">
+                                    <img src="../../img/id_card_02.png">
+                                    <div class="id-card-bt">
+                                        <a>点击上传</a><br>
+                                        <span class="error-tips">图片大小不能超过2M，只能为jpg格式</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="id-card-demo-box">
+                                    <img src="../../img/id_card_dm_01.png">
+                                    <div class="id-card-bt"><a>查看详细说明</a></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="height-02">
+                            <td class="t1"><span class="nec">*</span> 身份证正面：</td>
+                            <td class="t2">
+                                <div class="id-card-box">
+                                    <img src="../../img/id_card_03.png">
+                                    <div class="id-card-bt">
+                                        <a>点击上传</a><br>
+                                        <span class="error-tips">图片大小不能超过2M，只能为jpg格式</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="id-card-demo-box">
+                                    <img src="../../img/id_card_dm_02.png">
+                                    <div class="id-card-bt"><a>查看详细说明</a></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="height-02">
+                            <td class="t1"><span class="nec">*</span> 身份证反面：</td>
+                            <td class="t2">
+                                <div class="id-card-box">
+                                    <img src="../../img/id_card_04.png">
+                                    <div class="id-card-bt">
+                                        <a>点击上传</a><br>
+                                        <span class="error-tips">图片大小不能超过2M，只能为jpg格式</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="id-card-demo-box">
+                                    <img src="../../img/id_card_dm_03.png">
+                                    <div class="id-card-bt"><a>查看详细说明</a></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div style="text-align: center;width: 100%;margin-top:58px;margin-bottom: 50px;;">
+                        <input type="submit" value="提交审核" class="sub-bt"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div style="height:100px;clear: both"></div>
+<div class="footer" id="footer">
+    <h4>Copyright©2015 中国移动</h4>
+</div>
+</body>
+</html>
